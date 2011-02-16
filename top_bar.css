@@ -24,7 +24,7 @@
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   background-color: #4ca14c;
-  background-image: -webkit-gradient(linear, grad-point(bottom), grad-point(opposite-position(bottom)), grad-color-stops(color-stops(#1b5727 7%, #4ca14c 75%)));
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(7%, #1b5727), color-stop(75%, #4ca14c));
   background-image: -moz-linear-gradient(bottom, color-stops(#1b5727 7%, #4ca14c 75%));
   background-image: linear-gradient(bottom, color-stops(#1b5727 7%, #4ca14c 75%));
   height: 100%;
