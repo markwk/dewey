@@ -5,13 +5,11 @@ $dark: #1B5727;
 $lighter: #4CA14C;
 $lightest: #6DA15D;
 
-$button_color: #000000;
-
 $comp_darkest: complement($darkest);
 $comp_darker: complement($darker);
 $comp_dark: complement($dark);
-$comp_lighter: complement($lighter);
-$comp_lightest: complement($lightest);
+$comp_lighter: #90A14C;
+$comp_lightest: #90A14C;
 
 $body_gradient_base: lighten(desaturate($lightest, 30%), 25%);
 $other_gradients_base: lighten(desaturate($lightest, 50%), 40%);
@@ -37,10 +35,10 @@ $grey98: #FAFAFA;
 $grey99: #FCFCFC;
 
 /* Mixins */
-@mixin buttonize($base_color: $button_color, $button_size: 2em) {
+@mixin buttonize($base_color: $comp_lighter, $button_size: 2em) {
   -webkit-box-sizing: border-box;
   display: inline-block;
-  color: #000000;
+  color: #fff;
   text-decoration: none;
   font-size: $button_size/1.75;
   padding: 0 $button_size/2;

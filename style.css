@@ -4,9 +4,9 @@
 body {
   background-repeat: no-repeat;
   background-color: #bfbfbf;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(7%, #bfbfbf), color-stop(75%, #d9d9d9));
-  background-image: -moz-linear-gradient(bottom, #bfbfbf 7%, #d9d9d9 75%);
-  background-image: linear-gradient(bottom, #bfbfbf 7%, #d9d9d9 75%); }
+  background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(9.333%, #bfbfbf), color-stop(100%, #d8d8d8));
+  background-image: -moz-linear-gradient(bottom, #bfbfbf 7%, #d8d8d8 75%);
+  background-image: linear-gradient(bottom, #bfbfbf 7%, #d8d8d8 75%); }
 
 a {
   color: #0b3d1d;
@@ -62,11 +62,11 @@ fieldset {
   position: relative;
   background: white;
   float: left;
-  border-top: 1px solid #1b3557;
-  -moz-box-shadow: 7px 7px 21px #24303f;
-  -webkit-box-shadow: 7px 7px 21px #24303f;
-  -o-box-shadow: 7px 7px 21px #24303f;
-  box-shadow: 7px 7px 21px #24303f; }
+  border-top: 1px solid #1b5727;
+  -moz-box-shadow: #254038 7px 7px 21px 0;
+  -webkit-box-shadow: #254038 7px 7px 21px 0;
+  -o-box-shadow: #254038 7px 7px 21px 0;
+  box-shadow: #254038 7px 7px 21px 0; }
 
 #feature-tabs {
   margin-top: -1em;
@@ -286,11 +286,11 @@ ul.links {
   padding: 10px; }
 
 #comments .comment.author {
-  background-color: #dfece0;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #dfece0), color-stop(100%, #e5f0e6));
-  background-image: -moz-linear-gradient(bottom, #dfece0, #e5f0e6);
-  background-image: linear-gradient(bottom, #dfece0, #e5f0e6);
-  border-bottom: 1px solid #9ec7a1; }
+  background-color: #d0e9e1;
+  background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0%, #d0e9e1), color-stop(100%, #d7ece6));
+  background-image: -moz-linear-gradient(bottom, #d0e9e1 0%, #d7ece6 100%);
+  background-image: linear-gradient(bottom, #d0e9e1 0%, #d7ece6 100%);
+  border-bottom: 1px solid #8bc8b6; }
 
 #edit-comment-wrapper {
   width: 640px; }
@@ -313,9 +313,9 @@ body.cke_show_borders {
 
 .comment.odd {
   background-color: #fafafa;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #f2f2f2), color-stop(100%, #fafafa));
-  background-image: -moz-linear-gradient(bottom, #f2f2f2, #fafafa);
-  background-image: linear-gradient(bottom, #f2f2f2, #fafafa); }
+  background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0%, #f2f2f2), color-stop(100%, #fafafa));
+  background-image: -moz-linear-gradient(bottom, #f2f2f2 0%, #fafafa 100%);
+  background-image: linear-gradient(bottom, #f2f2f2 0%, #fafafa 100%); }
 
 .new-comment-count {
   color: #ff9a01;
@@ -331,9 +331,9 @@ body.cke_show_borders {
 div.comment-submitted {
   line-height: 30px;
   background: #e6e6e6;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(25%, #e6e6e6), color-stop(100%, #f2f2f2));
-  background-image: -moz-linear-gradient(bottom, #e6e6e6 25%, #f2f2f2);
-  background-image: linear-gradient(bottom, #e6e6e6 25%, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(25%, #e6e6e6), color-stop(100%, #f2f2f2));
+  background-image: -moz-linear-gradient(bottom, #e6e6e6 25%, #f2f2f2 100%);
+  background-image: linear-gradient(bottom, #e6e6e6 25%, #f2f2f2 100%);
   height: 30px;
   padding: 0 5px 0 0; }
 
@@ -417,17 +417,17 @@ a.button, div.button a {
   -ms-border-radius: 0.667em;
   -khtml-border-radius: 0.667em;
   border-radius: 0.667em;
-  border: 1px solid #5b462b;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d9c5ac), color-stop(4%, #c0a078), color-stop(100%, #a17b4b));
-  background-image: -moz-linear-gradient(top, #d9c5ac, #c0a078 4%, #a17b4b);
-  background-image: linear-gradient(top, #d9c5ac, #c0a078 4%, #a17b4b);
-  text-shadow: #7e603b 0 -1px 0;
+  border: 1px solid #525c2b;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #d0d9ad), color-stop(4%, #b2c07a), color-stop(100%, #90a14c));
+  background-image: -moz-linear-gradient(top, #d0d9ad 0%, #b2c07a 4%, #90a14c 100%);
+  background-image: linear-gradient(top, #d0d9ad 0%, #b2c07a 4%, #90a14c 100%);
+  text-shadow: #717e3c 0 -1px 0;
   -webkit-box-shadow: inset white 0 0 2px; }
   a.button:active, div.button a:active {
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #392b1a), color-stop(4%, #6d5333), color-stop(100%, #896840));
-    background-image: -moz-linear-gradient(top, #392b1a, #6d5333 4%, #896840);
-    background-image: linear-gradient(top, #392b1a, #6d5333 4%, #896840);
-    -webkit-box-shadow: inset #392b1a 0 0 0.5em; }
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #33391b), color-stop(4%, #626d33), color-stop(100%, #7a8941));
+    background-image: -moz-linear-gradient(top, #33391b 0%, #626d33 4%, #7a8941 100%);
+    background-image: linear-gradient(top, #33391b 0%, #626d33 4%, #7a8941 100%);
+    -webkit-box-shadow: inset #33391b 0 0 0.5em; }
   a.button:hover, div.button a:hover {
     color: #fff; }
 
@@ -437,7 +437,7 @@ a.button, div.button a {
 .flag-button .unflag-action {
   -webkit-box-sizing: border-box;
   display: inline-block;
-  color: #000000;
+  color: #fff;
   text-decoration: none;
   font-size: 0.921em;
   padding: 0 0.806em;
@@ -448,16 +448,16 @@ a.button, div.button a {
   -khtml-border-radius: 0.538em;
   border-radius: 0.538em;
   border: 1px solid #b3b3b3;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(4%, #ffffff), color-stop(100%, #e6e6e6));
-  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 4%, #e6e6e6);
-  background-image: linear-gradient(top, #ffffff, #ffffff 4%, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffffff), color-stop(4%, #ffffff), color-stop(100%, #e6e6e6));
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #ffffff 4%, #e6e6e6 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #ffffff 4%, #e6e6e6 100%);
   text-shadow: #cdcdcd 0 -1px 0;
   -webkit-box-shadow: inset white 0 0 2px;
   color: gray; }
   .flag-button .unflag-action:active {
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9a9a9a), color-stop(4%, #c0c0c0), color-stop(100%, #d4d4d4));
-    background-image: -moz-linear-gradient(top, #9a9a9a, #c0c0c0 4%, #d4d4d4);
-    background-image: linear-gradient(top, #9a9a9a, #c0c0c0 4%, #d4d4d4);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #9a9a9a), color-stop(4%, #c0c0c0), color-stop(100%, #d4d4d4));
+    background-image: -moz-linear-gradient(top, #9a9a9a 0%, #c0c0c0 4%, #d4d4d4 100%);
+    background-image: linear-gradient(top, #9a9a9a 0%, #c0c0c0 4%, #d4d4d4 100%);
     -webkit-box-shadow: inset #9a9a9a 0 0 0.5em; }
   .flag-button .unflag-action:hover {
     color: #fff; }
@@ -465,7 +465,7 @@ a.button, div.button a {
 .flag-button .flag-action {
   -webkit-box-sizing: border-box;
   display: inline-block;
-  color: #000000;
+  color: #fff;
   text-decoration: none;
   font-size: 1.143em;
   padding: 0 1em;
@@ -476,15 +476,15 @@ a.button, div.button a {
   -khtml-border-radius: 0.667em;
   border-radius: 0.667em;
   border: 1px solid #895a0e;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f6d5a0), color-stop(4%, #efb65b), color-stop(100%, #e69717));
-  background-image: -moz-linear-gradient(top, #f6d5a0, #efb65b 4%, #e69717);
-  background-image: linear-gradient(top, #f6d5a0, #efb65b 4%, #e69717);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #f6d5a0), color-stop(4%, #efb65b), color-stop(100%, #e69717));
+  background-image: -moz-linear-gradient(top, #f6d5a0 0%, #efb65b 4%, #e69717 100%);
+  background-image: linear-gradient(top, #f6d5a0 0%, #efb65b 4%, #e69717 100%);
   text-shadow: #b87912 0 -1px 0;
   -webkit-box-shadow: inset white 0 0 2px; }
   .flag-button .flag-action:active {
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5b3c09), color-stop(4%, #a06910), color-stop(100%, #c68214));
-    background-image: -moz-linear-gradient(top, #5b3c09, #a06910 4%, #c68214);
-    background-image: linear-gradient(top, #5b3c09, #a06910 4%, #c68214);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #5b3c09), color-stop(4%, #a06910), color-stop(100%, #c68214));
+    background-image: -moz-linear-gradient(top, #5b3c09 0%, #a06910 4%, #c68214 100%);
+    background-image: linear-gradient(top, #5b3c09 0%, #a06910 4%, #c68214 100%);
     -webkit-box-shadow: inset #5b3c09 0 0 0.5em; }
   .flag-button .flag-action:hover {
     color: #fff; }
@@ -591,9 +591,9 @@ div.vertical-tabs {
   margin-bottom: 2em;
   height: 22px;
   background: #f2f2f2;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #e6e6e6), color-stop(70%, #fafafa));
-  background-image: -moz-linear-gradient(bottom, #e6e6e6, #fafafa 70%);
-  background-image: linear-gradient(bottom, #e6e6e6, #fafafa 70%); }
+  background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0%, #e5e5e5), color-stop(100%, #f9f9f9));
+  background-image: -moz-linear-gradient(bottom, #e5e5e5 0%, #f9f9f9 70%);
+  background-image: linear-gradient(bottom, #e5e5e5 0%, #f9f9f9 70%); }
   #context-links .title {
     margin-top: 1px; }
 
@@ -795,7 +795,7 @@ tr.drag-previous {
 
 table th {
   xfont-size: 12px;
-  background: #9BBD82;
+  background: #dae1bf;
   font-weight: normal;
   padding: 3px 10px; }
   table th.active {
@@ -885,6 +885,7 @@ img.float-right {
   #top-bar .active-links {
     float: left;
     margin-left: 50px; } }
+
 ul.node-terms {
   list-style-type: none;
   display: inline;
