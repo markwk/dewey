@@ -4,7 +4,7 @@
 /* Glass color can be taken from the profile drop down. The technique used to produce the color there
   is unfortuantely not replicatable (afaik) on the your groups drop down hence this kludge */
 #top-stuff {
-  color: #cadffc;
+  color: #cafcd6;
   left: 0;
   position: fixed;
   top: 0;
@@ -23,10 +23,10 @@
   -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
-  background-color: #4b71a1;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(7%, #1b3557), color-stop(75%, #4b71a1));
-  background-image: -moz-linear-gradient(bottom, #1b3557 7%, #4b71a1 75%);
-  background-image: linear-gradient(bottom, #1b3557 7%, #4b71a1 75%);
+  background-color: #4ca14c;
+  background-image: -webkit-gradient(linear, grad-point(bottom), grad-point(opposite-position(bottom)), grad-color-stops(color-stops(#1b5727 7%, #4ca14c 75%)));
+  background-image: -moz-linear-gradient(bottom, color-stops(#1b5727 7%, #4ca14c 75%));
+  background-image: linear-gradient(bottom, color-stops(#1b5727 7%, #4ca14c 75%));
   height: 100%;
   left: 0;
   position: absolute;
@@ -97,12 +97,12 @@
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    -webkit-box-shadow: 0px 1px 0px #5e7ca1;
-    -moz-box-shadow: 0px 1px 0px #5e7ca1;
-    box-shadow: 0px 1px 0px #5e7ca1;
-    background-color: #5e7ca1;
-    border: 1px solid #3d270b;
-    color: #cadffc;
+    -webkit-box-shadow: 0px 1px 0px #6da15d;
+    -moz-box-shadow: 0px 1px 0px #6da15d;
+    box-shadow: 0px 1px 0px #6da15d;
+    background-color: #6da15d;
+    border: 1px solid #3d0b2b;
+    color: #cafcd6;
     font-family: Arial,sans-serif;
     font-size: 13px;
     padding-bottom: 4px;
@@ -111,8 +111,8 @@
     padding-top: 6px;
     width: 240px; }
     #top-bar #search-form .form-text:focus, #top-bar #search-form .form-text:hover {
-      background-color: #7e96b4;
-      color: #fafcff; }
+      background-color: #8ab47d;
+      color: #fafffb; }
 
 #global-nav {
   float: left;
@@ -127,7 +127,7 @@
     margin: 0;
     padding: 0; }
     #top-bar ul li a {
-      color: #cadffc;
+      color: #cafcd6;
       display: block;
       font-weight: normal;
       padding-bottom: 10px;
@@ -136,7 +136,7 @@
       padding-top: 10px; }
 
 #group-settings #group-settings-dropdown ul li a {
-  color: #cadffc;
+  color: #cafcd6;
   display: block;
   font-weight: normal;
   padding-bottom: 10px;
@@ -147,7 +147,7 @@
 #global-nav li a {
   margin-right: 1px; }
   #global-nav li a:hover {
-    color: #fafcff; }
+    color: #fafffb; }
 
 #session, #your-groups {
   cursor: pointer;
@@ -159,25 +159,25 @@
   vertical-align: top; }
 
 #session #screen-name, #your-groups #your-groups-label, #login-top-bar {
-  color: #cadffc;
+  color: #cafcd6;
   cursor: pointer;
   font-weight: normal; }
 
 #session:hover #screen-name, #session.active #screen-name {
-  color: #fafcff; }
+  color: #fafffb; }
 
 #your-groups:hover #your-groups-label, #your-groups.active #your-groups-label {
-  color: #fafcff; }
+  color: #fafffb; }
 
 .down-arrow {
-  color: #cadffc;
+  color: #cafcd6;
   font-size: 80%; }
 
 #session:hover .down-arrow, #session.active .down-arrow {
-  color: #fafcff; }
+  color: #fafffb; }
 
 #your-groups:hover .down-arrow, #your-groups.active .down-arrow {
-  color: #fafcff; }
+  color: #fafffb; }
 
 #top-bar #session:hover, #top-bar #session.active {
   background: rgba(255, 255, 255, 0.1); }
@@ -195,8 +195,8 @@
   width: 20px; }
 
 #top-bar .vr {
-  border-left: 1px solid #678bb8;
-  border-right: 1px solid #2b405b;
+  border-left: 1px solid #68b868;
+  border-right: 1px solid #2b5c2b;
   display: block;
   float: right;
   height: 26px;
@@ -259,7 +259,7 @@
 
 #group-settings #group-settings-dropdown ul {
   margin: 0;
-  border-top: 1px solid #1b3557;
+  border-top: 1px solid #1b5727;
   -webkit-border-bottom-right-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
   -moz-border-radius-bottomright: 5px;
@@ -279,19 +279,19 @@
 #group-settings .group-settings-down-arrow {
   font-size: 80%; }
 #group-settings.active ul li a {
-  background-color: #314867;
+  background-color: #8c8b84;
   color: white; }
   #group-settings.active ul li a:hover {
-    background-color: #314867; }
+    background-color: #8c8b84; }
 
 #top-bar ul.profile-dropdown, #group-settings-dropdown ul.links {
   width: 150px;
   right: 0;
-  background-color: #1b3557; }
+  background-color: #1b5727; }
 
 #your-groups-dropdown {
   right: 10px;
-  background-color: #314867; }
+  background-color: #8c8b84; }
   #your-groups-dropdown ul li {
     clear: both;
     text-decoration: none;
@@ -302,10 +302,10 @@
       width: 469px; }
     #your-groups-dropdown ul li a:hover {
       background: rgba(255, 255, 255, 0.1);
-      color: #fafcff; }
+      color: #fafffb; }
   #your-groups-dropdown hr {
-    border-top: 1px solid #678bb8;
-    border-bottom: 1px solid #2b405b;
+    border-top: 1px solid #68b868;
+    border-bottom: 1px solid #2b5c2b;
     border-left: none;
     border-right: none;
     margin: 0; }
@@ -313,18 +313,18 @@
 .your-groups-links {
   width: 100%; }
   .your-groups-links a {
-    color: #cadffc;
+    color: #cafcd6;
     font-size: 150%;
     padding: 6px 15px; }
 
 .create-new-group {
-  color: #cadffc;
+  color: #cafcd6;
   font-size: 150%;
   padding: 6px 15px; }
 
 .your-groups-links a:hover, .create-new-group:hover {
   background: rgba(255, 255, 255, 0.1);
-  color: #fafcff;
+  color: #fafffb;
   text-decoration: none; }
 
 .your-groups-container {
@@ -357,7 +357,7 @@
 
 #top-bar ul.profile-dropdown a:hover, #group-settings #group-settings-dropdown li a:hover {
   background: rgba(255, 255, 255, 0.1);
-  color: #fafcff; }
+  color: #fafffb; }
 
 #login-top-bar {
   float: right;
