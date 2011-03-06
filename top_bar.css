@@ -279,10 +279,10 @@
 #group-settings .group-settings-down-arrow {
   font-size: 80%; }
 #group-settings.active ul li a {
-  background-color: #8c8b84;
+  background-color: #467750;
   color: white; }
   #group-settings.active ul li a:hover {
-    background-color: #8c8b84; }
+    background-color: #467750; }
 
 #top-bar ul.profile-dropdown, #group-settings-dropdown ul.links {
   width: 150px;
@@ -291,7 +291,7 @@
 
 #your-groups-dropdown {
   right: 10px;
-  background-color: #8c8b84; }
+  background-color: #467750; }
   #your-groups-dropdown ul li {
     clear: both;
     text-decoration: none;
