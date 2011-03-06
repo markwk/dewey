@@ -35,7 +35,7 @@ $grey98: #FAFAFA;
 $grey99: #FCFCFC;
 
 /* Mixins */
-@mixin buttonize($base_color: $comp_lighter, $button_size: 2em) {
+@mixin buttonize($base_color: #094911, $button_size: 2em) {
   -webkit-box-sizing: border-box;
   display: inline-block;
   color: #fff;
